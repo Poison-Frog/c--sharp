@@ -65,6 +65,23 @@ namespace ConsoleApp1
             double a = 3.5;
             int b = 3;
             Console.WriteLine((int)a == b);
+            Console.WriteLine(true||false);//输出True
+            Console.WriteLine(true&&false);//输出False
+            Console.WriteLine(!false);//输出True
+            int agee = 4;//年龄
+            if (agee < 6 || agee > 60)
+                Console.WriteLine("请坐爱心座！");
+            else
+                Console.WriteLine("请坚持一下！");
+            double c, e;
+            c = e = 2;//从右向左赋值，x、y的值都是2
+            c /= 0.5;
+            e += 2;
+            Console.WriteLine(c - e);
+            int f = 1;
+            bool g = ++f * f > 3;
+            bool h = true;//请赋值
+            Console.WriteLine(g == h);
         }
     }
 }
